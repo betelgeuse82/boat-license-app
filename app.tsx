@@ -1299,7 +1299,7 @@ function App() {
     }
 
     // Miješaj opcije odgovora
-    const shuffledOptions = showAnswer ? currentQuestion.options : shuffleArray(currentQuestion.options)
+    const shuffledOptions = currentQuestion.options
 
     return (
       <div className="container mx-auto px-4 py-8">
